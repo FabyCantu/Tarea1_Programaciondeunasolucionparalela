@@ -1,2 +1,14 @@
 # Tarea1_Programaciondeunasolucionparalela
-Diseñar algoritmos paralelos, implementándolos para resolver problemas numéricos y no numéricos. Seleccionar modelos de paralelización apropiados a un programa aplicándolos en la creación de una versión paralela correcta que explote el ambiente de cómputo paralelo de última generación.
+# Suma de Arreglos con OpenMP
+Este proyecto implementa la suma de dos arreglos utilizando programación paralela en C++ con la librería OpenMP.
+
+## Descripción
+El programa genera dos arreglos de 1000 elementos con valores aleatorios y realiza la suma elemento a elemento utilizando un ciclo `for` paralelo.
+
+## Tecnologías
+- Lenguaje: C++
+- Librería: OpenMP
+- Plataforma de desarrollo: OnlineGDB
+
+## Ejecución
+El programa solicita al usuario el número de hilos a utilizar y muestra el tiempo de ejecución junto con una verificación de los resultados.
